@@ -1,0 +1,33 @@
+Name: Items
+Type: FolderType
+Children:
+- Name: Label1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Label1
+    Id: g=8f2d8d6bc907fd725ab9daabfbe5ff31
+    Supertype: Label
+    ReferenceType: HasComponent
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Label1"}
+- Name: TextBox1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: TextBox1
+    Id: g=1138da5e3f2f9bd95929fa7b6259f696
+    Supertype: TextBox
+    ReferenceType: HasComponent
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
