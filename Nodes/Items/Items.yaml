@@ -102,3 +102,20 @@ Children:
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"Button1"}
+- Name: Switch1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Switch1
+    Id: g=e847c2d06c21c8d8137ddf94d170da27
+    Supertype: Switch
+    ReferenceType: HasComponent
+    Children:
+    - Name: Checked
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
