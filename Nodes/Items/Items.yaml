@@ -163,3 +163,25 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
+- Name: LED12
+  Type: ObjectLibraryItem
+  Children:
+  - Name: LED12
+    Id: g=384c5e6854bfe50a4e93303be0bc4a2d
+    Supertype: Led
+    ReferenceType: HasComponent
+    Children:
+    - Name: Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
